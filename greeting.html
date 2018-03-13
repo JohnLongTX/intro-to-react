@@ -11,16 +11,13 @@
      <script type="text/babel">
        class Greeting extends React.Component {
          render() {
-           return (
-             <div>
-               <h1>Hello World!</h1>
-             </div>
-           );
+           return <h1>Hello, {this.props.name}</h1>;
          }
        }
- 
+       const greetingElement = <Greeting name="world!" />;
        ReactDOM.render(
-         <Greeting />, document.getElementById('app')
+         greetingElement,
+         document.getElementById('app')
        );
      </script>
   </body>
