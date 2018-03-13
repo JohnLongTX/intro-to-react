@@ -1,0 +1,24 @@
+{
+  "name": "intro-to-react",
+  "version": "1.0.0",
+  "description": "intro to react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnlong73801/intro-to-react.git"
+  },
+  "keywords": [
+    "intro",
+    "to",
+    "react"
+  ],
+  "author": "John Long",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnlong73801/intro-to-react/issues"
+  },
+  "homepage": "https://github.com/johnlong73801/intro-to-react#readme"
+}
