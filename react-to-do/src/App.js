@@ -13,6 +13,12 @@ class App extends Component {
       ], newToDoDescription: ''
     };
   }
+
+  deleteToDo(index) {
+    let todos = this.state.todos.slice();
+    todos = todos.filter((todo) => todos.indexOf(todo) !== index);
+    this.setState({ todos: todos });
+  }
   handleChange(e){
     this.setState({ newToDoDescription: e.target.value })
   }
